@@ -1,0 +1,35 @@
+.navbar{
+    position: sticky;
+    top: 0;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0 3rem;
+   background-color: #000;
+   color: #fff;
+   margin-bottom: 4rem;
+   z-index: 9999;
+}
+.icon{
+    font-size: 1.5rem;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.cart-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.cart-box span{
+    margin-bottom: 2rem;
+   background-color: #ef4444;
+   color: #fff;
+   width: 20px;
+   height: 20px;
+    border-radius: 50%;
+    text-align: center;
+}
